@@ -126,7 +126,7 @@ header {
 #primeira {
     height: 100vh;
     width: 100vw;   
-    background: url(/editadas/gradeinclinadabg.jpg);
+    background: url(image/gradeinclinadabg.jpg);
     background-attachment: fixed;
 }
 .mascara {
@@ -175,7 +175,7 @@ header {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    background: url(editadas/televisionpq.png);
+    background: url(image/televisionpq.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -207,7 +207,7 @@ header {
     height: 90vh;
     width: 100vw;
     display: flex;
-    background: url(editadas/pipoca1.jpg);
+    background: url(image/pipoca1.jpg);
     background-attachment: fixed;
 }
 .grade {
