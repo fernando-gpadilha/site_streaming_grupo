@@ -126,7 +126,7 @@ header {
 #primeira {
     height: 100vh;
     width: 100vw;   
-    background: url(./image/gradeinclinadabg.jpg);
+    background: url(/editadas/gradeinclinadabg.jpg);
     background-attachment: fixed;
 }
 .mascara {
@@ -175,25 +175,11 @@ header {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    background: url(./image/televisionpq.png);
+    background: url(editadas/televisionpq.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 }
-iframe#tela {
-    position: relative;
-    left: 6px;
-    top: 2px;
-    width: 490px;
-    height: 353px;
-    border-radius: 2px;
-    
-    
-}
-
-
-
-
 .container_texto {
     position: relative;
     height: 100%;
@@ -221,7 +207,7 @@ iframe#tela {
     height: 90vh;
     width: 100vw;
     display: flex;
-    background: url(./image/pipoca1.jpg);
+    background: url(editadas/pipoca1.jpg);
     background-attachment: fixed;
 }
 .grade {
