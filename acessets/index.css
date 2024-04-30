@@ -310,8 +310,43 @@ header {
     height: 15vh;
     width: 100vw;
 }
-
 footer {
+    background-color: #050A0D;
+    box-shadow: 0px 3px 10px hsl(0, 0%, 27%);
     
-    background: #050A0D;
 }
+.nav_bar_footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 3rem;
+    margin-top: 15px;
+}
+.logo_footer {
+    display: flex;
+    align-items: center;
+    padding-left: 1.5rem;
+}
+.logo_footer h1{
+    padding-left: 0;
+    color: #fff;
+}
+.nav_list_footer {
+    display: flex;
+    align-items: center;
+    
+}
+.nav_list_footer ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.nav_item_footer {
+    margin: 0 15px;    
+}
+.nav_link_footer {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 500;
+}
+
