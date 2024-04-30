@@ -1,12 +1,5 @@
 @charset "UTF-8";
 
-/* 
-#050A0D--verde escuro
-#172526--verde médio
-#485936--verde claro
-#8C8A87--cinza
-#F2F2F2--quase branco
-*/
 :root {
     --cor1: #050A0D;
     --cor2: #172526;
@@ -14,7 +7,6 @@
     --cor4: #8C8A87;
     --cor5: #F2F2F2;
 }
-
 * {
     margin: 0;
     padding: 0;
@@ -127,6 +119,44 @@ header {
     .open{
         display: block;
     }
+    footer {
+        background-color: #050A0D;
+        box-shadow: 0px 3px 10px hsl(0, 0%, 27%);
+    }
+    .nav_bar_footer {
+        display: flex;
+        justify-content: space-between;
+        padding: 1.5rem 3rem;
+        margin-top: 15px;
+    }
+    .logo_footer {
+        display: flex;
+        align-items: center;
+        padding-left: 1.5rem;
+    }
+    .logo_footer h1{
+        padding-left: 0;
+        color: #fff;
+    }
+    .nav_list_footer {
+        display: flex;
+        align-items: center;
+        
+    }
+    .nav_list_footer ul {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+    }
+    .nav_item_footer {
+        margin: 0 15px;    
+    }
+    .nav_link_footer {
+        text-decoration: none;
+        font-size: 1.5rem;
+        color: #fff;
+        font-weight: 500;
+    }
 }
 #primeira {
     height: 100vh;
@@ -141,7 +171,6 @@ header {
    background-color: #050a0d93;
    justify-content: space-around;
    display: flex;
-    
 }
 #primeiradiv {
     position: absolute;
@@ -155,7 +184,6 @@ header {
     margin: auto;
     color: #F2F2F2;
     font-size: 1.4em;
-
 }
 #primeiradiv > button {
     height: 40px;
@@ -172,7 +200,6 @@ header {
     width: 100vw;
     background: darkred;
     background-size: cover;
-    
 }
 .tela {
     position: absolute;    
@@ -195,7 +222,6 @@ header {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    
     display: block;
     background: transparent;
     text-align: center;
@@ -204,10 +230,8 @@ header {
 }
 .texto > h1, p, button {
     padding-bottom: auto;
-    margin: auto;
-    
+    margin: auto;   
 }
-
 #terceira {
     height: 90vh;
     width: 100vw;
@@ -220,78 +244,18 @@ header {
     height: 100%;
     width: 50%;
     text-align: center;
-    position: relative;
-    
-    
-   
+    position: relative;  
 }
 #btn {
     height: 100%;
     width: 100%;
     padding-top: 5%;
 }
-
 .logo_btn {
     height: 29%;
     width: 29%;
     margin: 1px;
     padding: 1px;
-    
-    
-}
-#btn2 {
-    height: 29%;
-    width: 29%;
-    margin: 1px;
-    padding: 1px;
-    
-}
-#btn3 {
-    height: 29%;
-    width: 29%;
-    margin: 1px;
-    padding: 1px;
-    
-}
-#btn4 {
-    height: 29%;
-    width: 29%;
-    margin: 1px;
-    padding: 1px;
-}    
-#btn5 {
-    height: 29%;
-    width: 29%;
-    margin: 1px;
-    padding: 1px;
-}    
-#btn6 {
-    height: 29%;
-    width: 29%;
-    margin: 1px;
-    padding: 1px;
-    
-}
-#btn7 {
-    height: 29%;
-    width: 29%;
-    margin: 1px;
-    padding: 1px;
-    
-}
-#btn8 {
-    height: 29%;
-    width: 29%;
-    margin: 1px;
-    padding: 1px;
-    
-}
-#btn9 {
-    height: 29%;
-    width: 29%;
-    margin: 1px;
-    padding: 1px;
-    
 }
 #quarta {
     height: 70vh;
@@ -306,18 +270,14 @@ header {
 }
 .icons > #img1 {
     height: 80%;
-    width: 100%;
-    
-    
+    width: 100%;    
 }
-
 #quinta {
     height: 15vh;
 }
 footer {
     background-color: #050A0D;
     box-shadow: 0px 3px 10px hsl(0, 0%, 27%);
-    
 }
 .nav_bar_footer {
     display: flex;
@@ -353,4 +313,3 @@ footer {
     color: #fff;
     font-weight: 500;
 }
-
