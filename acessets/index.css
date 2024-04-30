@@ -119,6 +119,124 @@ header {
     .open{
         display: block;
     }
+    #primeira {
+        height: 100vh;
+        width: 100vw;   
+        background: url(image/gradeinclinadabg.jpg);
+        background-attachment: fixed;
+    }
+    .mascara {
+        position: relative;
+        height: 100%;
+        width: 100%;
+       background-color: #050a0d93;
+       justify-content: space-around;
+       display: flex;
+    }
+    #primeiradiv {
+        position: absolute;
+        height: 80%;
+        width: 70%;
+        left: 20%;
+        top: 50%;
+        transform: translate(0, -25%);
+        text-align: center;
+        display: block;
+        margin: auto;
+        color: #F2F2F2;
+        font-size: 1.4em;
+    }
+    #primeiradiv > button {
+        height: 40px;
+        width: 150px;
+        color: #f2f2f2e1;
+        font-size: 110%;
+        font-weight: bolder;
+        border-radius: 6px;
+        background-color: var(--cor3);
+    }
+    #segunda {
+        position: relative;
+        height: 100vh;
+        width: 100vw;
+        background: darkred;
+        background-size: cover;
+    }
+    .tela {
+        position: absolute;    
+        left: 50%;
+        top: 50%;
+        width: 80%;
+        height: 500px;
+        transform: translate(-50%, -50%);
+        background: url(image/tela.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .container_texto {
+        position: relative;
+        height: 100%;
+        width: 50%;
+    }
+    .texto {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        display: block;
+        background: transparent;
+        text-align: center;
+        color: white;
+        font-size: 1.3em;
+    }
+    .texto > h1, p, button {
+        padding-bottom: auto;
+        margin: auto;   
+    }
+    #terceira {
+        height: 90vh;
+        width: 100vw;
+        display: flex;
+        background: url(image/bgpipoca.jpg);
+        background-attachment: fixed;
+    }
+    .grade {
+        background-image: linear-gradient(to left, --cor3, --cor5);
+        height: 100%;
+        width: 50%;
+        text-align: center;
+        position: relative;  
+    }
+    #btn {
+        height: 100%;
+        width: 100%;
+        padding-top: 5%;
+    }
+    .logo_btn {
+        height: 29%;
+        width: 29%;
+        margin: 1px;
+        padding: 1px;
+    }
+    #quarta {
+        height: 70vh;
+        width: 100vw;
+        background-color: #8C8A87;
+        text-align: justify;
+        display: flex;
+    }
+    .icons {
+        height: 100%;
+        width: 100%;
+    }
+    .icons > #img1 {
+        height: 80%;
+        width: 100%;    
+    }
+    #quinta {
+        height: 15vh;
+    }
+    
     footer {
         width: 100vw;
         background-color: #050A0D;
