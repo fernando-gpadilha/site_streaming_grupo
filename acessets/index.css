@@ -205,7 +205,7 @@ header {
 }
 .manual_navigation {
     position: absolute;
-    width: 800px;
+    width: 100vw;
     margin-top: -40px;
     display: flex;
     justify-content: center;
@@ -241,8 +241,8 @@ header {
 }
 .navigation_auto {
     position: absolute;
-    width: 800px;
-    margin-top: 601px;
+    width: 100vw;
+    margin-top: 566px;
     display: flex;
     justify-content: center;
 }
