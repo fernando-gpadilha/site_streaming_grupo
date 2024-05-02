@@ -127,6 +127,7 @@ header {
     height: 100vh;
     width: 100vw;   
     background: url(image/gradeinclinadabg.jpg);
+    background-size: cover;
     background-attachment: fixed;
 }
 .mascara {
@@ -153,29 +154,108 @@ header {
 #primeiradiv > button {
     height: 40px;
     width: 150px;
-    color: #f2f2f2e1;
+    color: #F2F2F2;
     font-size: 110%;
     font-weight: bolder;
     border-radius: 6px;
-    background-color: var(--cor3);
+    background-color: darkred;
 }
-#segunda {
-    position: relative;
+#primeiradiv > button > a {
+    text-decoration: none;
+}
+#corrossel {
+    margin: 0;
+    padding: 0;
+    width: 100%;
     height: 100vh;
-    width: 100vw;
-    background: darkred;
-    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.tela {
-    position: absolute;    
-    left: 50%;
-    top: 50%;
-    width: 80%;
-    height: 500px;
-    transform: translate(-50%, -50%);
-    background: url(image/tela.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+.slider {
+    margin: 0 auto;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.slides {
+    width: 400%;
+    height: 100vh;
+    display: flex;
+}
+.slides input {
+    display: none;
+}
+.slide {
+    width: 25%;
+    position: relative;
+    transition: 2s;
+}
+.slide img {
+    width: 100vw;
+}
+.texto_slide {
+    position: relative;
+    z-index: 10;
+    margin-top: -400px;
+    text-align: center;
+    color: white;
+    font-size: 2.5em;
+}
+.manual_navigation {
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+.manual_btn {
+    border: 2px solid #Fff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.manual_btn:not(:last-child) {
+    margin-right: 40px;
+}
+.manual_btn:hover {
+    background-color: #Fff;
+}
+#radio1:checked ~ .frist {
+    margin-left: 0;
+}
+#radio2:checked ~ .frist {
+    margin-left: -25%;
+}
+#radio3:checked ~ .frist {
+    margin-left: -50%;
+}
+.navigation_auto div {
+    border: 2px solid blueviolet;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.navigation_auto {
+    position: absolute;
+    width: 800px;
+    margin-top: 601px;
+    display: flex;
+    justify-content: center;
+}
+#radio1:checked ~.navigation_auto .auto_btn1 {
+    background-color: #Fff;
+}
+#radio2:checked ~.navigation_auto .auto_btn2 {
+    background-color: #Fff;
+}
+#radio3:checked ~.navigation_auto .auto_btn3 {
+    background-color: #Fff;
+}
+.navigation_auto div:not(:last-child) {
+    margin-right: 40px;
 }
 .container_texto {
     position: relative;
