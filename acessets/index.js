@@ -24,9 +24,3 @@ function nextImage() {
     }
     document.getElementById('radio' + count).checked= true;
 }
-function mostrar_texto() {
-    
-    if(radio.checked = true) {
-       let  mostrar_texto = document.querySelector('style', 'display: block;')
-    }
-}

@@ -128,7 +128,7 @@ header {
     width: 100vw;   
     background: url(image/gradeinclinadabg.jpg);
     background-size: cover;
-    background-attachment: fixed;
+    
 }
 .mascara {
     position: relative;
@@ -171,17 +171,20 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .slider {
     margin: 0 auto;
     width: 100vw;
     height: 100vh;
     overflow: hidden;
+    
 }
 .slides {
     width: 400%;
     height: 100vh;
     display: flex;
+    
 }
 .slides input {
     display: none;
@@ -190,19 +193,21 @@ header {
     width: 25%;
     position: relative;
     transition: 2s;
+    background-attachment: fixed;
 }
 .slide img {
-    width: 100vw;
+    width: 100vw;background-attachment: fixed;
 }
 .texto_slide {
     position: relative;
-    
+    padding: 0 15px;
     z-index: 10;
     margin-top: -450px;
-    text-align: center;
+    text-align: center ;
     color: white;
-    font-size: 2em;
+    font-size: 1.5em;
 }
+
 .manual_navigation {
     position: absolute;
     width: 100vw;
@@ -242,7 +247,7 @@ header {
 .navigation_auto {
     position: absolute;
     width: 100vw;
-    margin-top: 566px;
+    margin-top: 601px;
     display: flex;
     justify-content: center;
 }
@@ -272,11 +277,12 @@ header {
     background: transparent;
     text-align: center;
     color: white;
-    font-size: 1.3em;
+    
 }
 .texto > h1, p, button {
     padding-bottom: auto;
-    margin: auto;   
+    margin: auto;  
+    font-size: 1.5em; 
 }
 #terceira {
     height: 90vh;
