@@ -360,15 +360,4 @@ header {
     margin: 1px;
     padding: 1px;
 }
-#quarta {
-    height: 70vh;
-    width: 100vw;
-    background-color: #8C8A87;
-    text-align: justify;
-    display: flex;
-}
 
-.icons > #img1 {
-    height: 80%;
-    width: 100%;    
-}
