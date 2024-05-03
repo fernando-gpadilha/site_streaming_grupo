@@ -85,7 +85,7 @@ header {
 .mobile_menu {
     display: none;
 }
-@media screen and (max-width: 800px) {
+@media screen and(max-width: 800px) {
     .nav_bar {
         padding: 1.5rem 4rem;
     }
@@ -132,88 +132,8 @@ header {
     .icons{
         display: block;
     }
-    #terceira {
-        height: 100vh;
-        width: 100vw;
-        display: block;
-        background: url(image/bgpipoca.jpg);
-        background-attachment: fixed;
-    }
-    .grade {
-        background-image: linear-gradient(to left, --cor3, --cor5);
-        height: 100%;
-        width: 100%;
-        text-align: center;
-        position: relative;  
-    }
-    #btn {
-        height: 100%;
-        width: 100%;
-        padding-top: 5%;
-    }
-    .logo_btn {
-        height: 29%;
-        width: 29%;
-        margin: 1px;
-        padding: 1px;
-    }
-    .container_texto {
-        position: relative;
-        height: 100%;
-        width: 100%;
-    }
-    .texto {
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
-        display: block;
-        background: transparent;
-        text-align: center;
-        color: white;
-        
-    }
 }    
-#primeira {
-    height: 100vh;
-    width: 100vw;   
-    background: url(image/gradeinclinadabg.jpg);
-    background-size: cover;
-    
-}
-.mascara {
-    position: relative;
-    height: 100%;
-    width: 100%;
-   background-color: #050a0d93;
-   justify-content: space-around;
-   display: flex;
-}
-#primeiradiv {
-    position: absolute;
-    height: 80%;
-    width: 70%;
-    left: 20%;
-    top: 50%;
-    transform: translate(0, -25%);
-    text-align: center;
-    display: block;
-    margin: auto;
-    color: #F2F2F2;
-    font-size: 1.4em;
-}
-#primeiradiv > button {
-    height: 40px;
-    width: 150px;
-    color: #F2F2F2;
-    font-size: 110%;
-    font-weight: bolder;
-    border-radius: 6px;
-    background-color: darkred;
-}
-#primeiradiv > button > a {
-    text-decoration: none;
-}
+
 #corrossel {
     margin: 0;
     padding: 0;
@@ -314,53 +234,5 @@ header {
 .navigation_auto div:not(:last-child) {
     margin-right: 40px;
 }
-.container_texto {
-    position: relative;
-    height: 100%;
-    width: 50%;
-}
-.texto {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    display: block;
-    background: transparent;
-    text-align: center;
-    color: white;
-    
-}
-.texto > h1, p, button {
-    padding-bottom: auto;
-    margin: auto;  
-    font-size: 1.5em; 
-}
-#terceira {
-    height: 90vh;
-    width: 100vw;
-    display: flex;
-    background: url(image/bgpipoca.jpg);
-    background-attachment: fixed;
-}
-.grade {
-    background-image: linear-gradient(to left, --cor3, --cor5);
-    height: 100%;
-    width: 50%;
-    text-align: center;
-    position: relative;  
-}
-#btn {
-    height: 100%;
-    width: 100%;
-    padding-top: 5%;
-}
-.logo_btn {
-    height: 29%;
-    width: 29%;
-    margin: 1px;
-    padding: 1px;
-}
 
-#quarta {
-    display: none;
-}
+
