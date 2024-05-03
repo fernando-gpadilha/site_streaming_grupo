@@ -119,19 +119,7 @@ header {
     .open{
         display: block;
     }
-    .segunda {
-        background: black;
-    }
-    #quarta {
-        
-        width: 100vw;
-        background-color: #8C8A87;
-        text-align: justify;
-        display: block;
-    }
-    .icons{
-        display: block;
-    }
+    
 }    
 
 #corrossel {
