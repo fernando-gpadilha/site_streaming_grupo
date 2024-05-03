@@ -367,10 +367,7 @@ header {
     text-align: justify;
     display: flex;
 }
-.icons {
-    height: 100%;
-    width: 100%;
-}
+
 .icons > #img1 {
     height: 80%;
     width: 100%;    
