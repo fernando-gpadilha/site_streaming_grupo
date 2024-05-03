@@ -85,7 +85,7 @@ header {
 .mobile_menu {
     display: none;
 }
-@media screen and(max-width: 800px) {
+@media screen and (max-width: 800px) {
     .nav_bar {
         padding: 1.5rem 4rem;
     }
