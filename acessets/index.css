@@ -125,9 +125,18 @@ header {
     .open{
         display: block;
     }
+    .segunda_img {
+        width: 500px;
+        height: 500px;
+        display: none;
+    }
+    .segunda_img_mobile {
+        width: 500px;
+        height: 500px;
+        display: block;
+    }
     
 }    
-
 #corrossel {
     margin: 0;
     padding: 0;
@@ -228,5 +237,15 @@ header {
 .navigation_auto div:not(:last-child) {
     margin-right: 40px;
 }
-
+.segunda_img {
+    width: 500px;
+    height: 500px;
+    background-color: #485936;
+}
+.segunda_img_mobile {
+    width: 500px;
+    height: 500px;
+    background-color: yellow;
+    display: none;
+}
 
