@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&display=swap');
 
 :root {
     --cor1: #050A0D;
@@ -10,6 +11,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Briem Hand, sans-serif;
 }
 body {
     height: 100vh;
@@ -67,15 +69,15 @@ header {
     color: #fff;
     font-weight: 500;
 }
-.login_button{
+.login_button button{
     border: none;
     background-color: #0187a7;
     padding: 10px 15px;
     border-radius: 5px;
-    color: #Fff;
 }
-.login_button a {
+.login_button button a {
     text-decoration: none;
+    color: #Fff;
     font-weight: 500;
     font-size: 1.1rem;
 }
@@ -114,6 +116,10 @@ header {
         padding-top: 1.2rem;
     }
     .mobile_menu .login_button {
+        display: block;
+        padding-top: 1rem 2rem;
+    }
+    .mobile_menu .login_button button {
         width: 100%;
     }
     .open{
