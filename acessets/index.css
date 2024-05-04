@@ -86,56 +86,6 @@ header {
 }
 .mobile_menu {
     display: none;
-}
-@media screen and (max-width: 800px) {
-    .nav_bar {
-        padding: 1.5rem 4rem;
-    }
-    .nav_item {
-        display: none;
-    }
-    .login_button {
-        display: none;
-    }
-    .mobile_menu_icon {
-        display: block;
-    }
-    .mobile_menu_icon button {
-        background-color: transparent;
-        border: none;
-        cursor: pointer;
-    }
-    .mobile_menu ul {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        padding-bottom: 1rem;
-    }
-    .mobile_menu .nav_item {
-        display: block;
-        padding-top: 1.2rem;
-    }
-    .mobile_menu .login_button {
-        display: block;
-        padding-top: 1rem 2rem;
-    }
-    .mobile_menu .login_button button {
-        width: 100%;
-    }
-    .open{
-        display: block;
-    }
-    .segunda_img {
-        width: 500px;
-        height: 500px;
-        display: none;
-    }
-    .segunda_img_mobile {
-        width: 500px;
-        height: 500px;
-        display: block;
-    }
-    
 }    
 #corrossel {
     margin: 0;
@@ -238,14 +188,143 @@ header {
     margin-right: 40px;
 }
 .segunda_img {
-    width: 500px;
-    height: 500px;
-    background-color: #485936;
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    background: url(image/bgpipoca.jpg);
+    background-attachment: fixed;
 }
 .segunda_img_mobile {
-    width: 500px;
-    height: 500px;
     background-color: yellow;
     display: none;
+}.container_texto {
+    position: relative;
+    height: 100%;
+    width: 50%;
+}
+.texto {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    background: transparent;
+    text-align: center;
+    color: white;
+    font-size: 1.3em;
+}
+.texto > h1, p, button {
+    padding-bottom: auto;
+    margin: auto;   
 }
 
+.grade {
+    background-image: linear-gradient(to left, --cor3, --cor5);
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    position: relative;  
+}
+#btn {
+    height: 100%;
+    width: 100%;
+    padding-top: 5%;
+}
+.logo_btn {
+    height: 29%;
+    width: 29%;
+    margin: 1px;
+    padding: 1px;
+}
+
+@media screen and (max-width: 800px) {
+    .nav_bar {
+        padding: 1.5rem 4rem;
+    }
+    .nav_item {
+        display: none;
+    }
+    .login_button {
+        display: none;
+    }
+    .mobile_menu_icon {
+        display: block;
+    }
+    .mobile_menu_icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .mobile_menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .mobile_menu .nav_item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+    .mobile_menu .login_button {
+        display: block;
+        padding-top: 1rem 2rem;
+    }
+    .mobile_menu .login_button button {
+        width: 100%;
+    }
+    .open{
+        display: block;
+    }
+    .segunda_img {
+        
+        display: none;
+    }
+    .segunda_img_mobile {
+        width: 100%;
+        height: 130vh;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+    .container_texto_mobile {
+        
+        display: block;
+        height: 30%;
+        justify-content: center;
+    }
+    .texto_mobile {
+    
+    }
+    .texto_mobile > h1, p, button {
+        margin-top: 8px;
+        font-size: 1.8em;
+        color: white;
+    }
+    .texto_mobile > button {
+        width: 200px;
+        height: 25px;
+        text-decoration: none;
+        font-size: 2em;
+        padding-bottom: 55px;
+        border-radius: 5px;
+        background-color: darkred;
+    }
+    .texto_mobile > button > a {
+        
+        text-decoration: none;
+    }
+    .grade_mobile {
+        height: 50%;
+        width:100%;
+        justify-content: center;
+        display: flex;
+    }
+    #btn_mobile {
+         
+    }
+    .logo_btn-mobile {
+        margin: 1px;
+    }        
+}
