@@ -23,4 +23,14 @@ function nextImage() {
         count = 1;
     }
     document.getElementById('radio' + count).checked= true;
+}function menuShowFooter() {
+    let menuMobile = document.querySelector('.mobile_menu_footer');
+    if (menuMobile.classList.contains('open')) { 
+        menuMobile.classList.remove('open');
+        document.querySelector('.icon_footer').src = 'acessets/image/menu.png';
+
+    } else {
+        menuMobile.classList.add('open');
+        document.querySelector('.icon_footer').src = 'acessets/image/fechar.png';
+    }
 }
