@@ -4,6 +4,125 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vídeo de demonstração</title>
+    <style>
+        
+    
+    
+    #corrossel_mobile {
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .slider_mobile {
+        margin: 0 auto;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        
+    }
+    .slides_mobile {
+        width: 400%;
+        height: 100vh;
+        display: flex;
+        
+    }
+    .slides_mobile  > input {
+        display: none;
+    }
+    .slide_mobile {
+        width: 25%;
+        position: relative;
+        transition: 2s;
+    }
+    .slide_mobile > img {
+        width: 100vw;
+        background-attachment: fixed;
+    }
+    .texto_slide_mobile {
+        position: relative;
+        padding: 0 15px;
+        z-index: 10;
+        margin-top: -450px;
+        text-align: center ;
+        color: white;
+        font-size: 1.5em;
+        display: block;
+        height: 100vh;
+    }
+    .texto_slide_mobile > h1 {
+        position: relative;
+        padding: 0 15px;
+        z-index: 15;
+        margin-top: -550px;
+        text-align: center ;
+        color: white;
+        font-size: 1.5em;
+        display: block;
+    }
+   
+    .manual_navigation_mobile {
+        position: absolute;
+        width: 100vw;
+        margin-top: -40px;
+        display: flex;
+        justify-content: center;
+    }
+    .manual_btn_mobile {
+        border: 2px solid #Fff;
+        padding: 5px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 1s;
+    }
+    .manual_btn_mobile:not(:last-child) {
+        margin-right: 40px;
+    }
+    .manual_btn_mobile:hover {
+        background-color: #Fff;
+    }
+    #radio1_mobile:checked ~ .frist {
+        margin-left: 0;
+    }
+    #radio2_mobile:checked ~ .frist {
+        margin-left: -25%;
+    }
+    #radio3_mobile:checked ~ .frist {
+        margin-left: -50%;
+    }
+    .navigation_auto_mobile div {
+        border: 2px solid blueviolet;
+        padding: 5px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 1s;
+    }
+    .navigation_auto_mobile {
+        position: absolute;
+        width: 100vw;
+        margin-top: 601px;
+        display: flex;
+        justify-content: center;
+    }
+    #radio1_mobile:checked ~.navigation_auto_mobile .auto_btn1_mobile {
+        background-color: #Fff;
+    }
+    #radio2_mobile:checked ~.navigation_auto_mobile .auto_btn2_mobile {
+        background-color: #Fff;
+    }
+    #radio3_mobile:checked ~.navigation_auto_mobile .auto_btn3_mobile {
+        background-color: #Fff;
+    }
+    .navigation_auto_mobile div:not(:last-child) {
+        margin-right: 40px;
+    }
+
+
+    </style>
 </head>
 <body>
     <div>
